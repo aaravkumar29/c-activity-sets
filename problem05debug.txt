@@ -1,0 +1,23 @@
+ gcc -g -O0 problem05.c
+PS C:\Users\aarav\c-activity-sets\set01> gdb a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\aarav\c-activity-sets\set01\a.exe...done.
+(gdb) r
+Starting program: C:\Users\aarav\c-activity-sets\set01/a.exe
+[New Thread 27564.0x580c]
+[New Thread 27564.0x64c8]
+enter number: 5
+enter number: 6
+enter number: 7
+the largest number amongst 5,6 and 7 is 7[Inferior 1 (process 27564) exited normally]
+(gdb) n
+The program is not being run.
+(gdb) q
