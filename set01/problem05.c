@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 int input();
 int compare(int a, int b, int c);
@@ -18,7 +19,7 @@ int input()
 {
   int x;
   printf("Enter the number: ");
-  scanf('%d',&x);
+  scanf("%d",&x);
   return x;
 }
 
